@@ -1,0 +1,1 @@
+If no Wi-Fi then use AP mode.
