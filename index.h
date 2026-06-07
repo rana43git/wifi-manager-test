@@ -10,7 +10,7 @@ const char INDEX[] PROGMEM = R"=====(
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INDEX Page</title>
     <script>
-        var defaultIP = "http://192.168.1.100";
+        var defaultIP = "http://esp8266.local";
 
         function showPopup() {
             if (confirm("Do you want to open the Wi-Fi setup page in 3 seconds?")) {
@@ -26,9 +26,7 @@ const char INDEX[] PROGMEM = R"=====(
 <body>
     <div>
         <h1>Index Page</h1>
-        <button onclick="showPopup()">Wi-Fi Setup</button><br><br>
-        <a href="/a.html">Go to Page A</a><br><br>
-        <a href="/b.html">Go to Page B</a>
+        <button onclick="showPopup()">Wi-Fi Setup</button>
     </div>
 </body>
 
